@@ -1,7 +1,7 @@
 "use strict";
 //! Reference type
 // Object
-var user = {
+const user = {
     city: "Bangladesh",
     companyName: "Ollyo",
     firstName: "yousuf",

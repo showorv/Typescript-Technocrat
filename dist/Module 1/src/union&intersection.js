@@ -1,11 +1,11 @@
 "use strict";
 {
-    var newDev = "junior";
-    var details1 = {
+    const newDev = "junior";
+    const details1 = {
         name: "shwo",
         gender: "female"
     };
-    var developer = {
+    const developer = {
         skills: ["nodes", "html"],
         designation1: "Fronted",
         designation2: "backend"

@@ -5,15 +5,15 @@ function add(num1, num2) {
 }
 add(2, 3);
 // arrow function
-var addArrow = function (num1, num2) { return num1 + num2; };
+const addArrow = (num1, num2) => num1 + num2;
 // object->>function ->> its called method
-var User = {
+const User = {
     firstname: "showrov",
     balance: 0,
-    addBalance: function (balance) {
-        return "my balance is ".concat(this.balance + balance);
+    addBalance(balance) {
+        return `my balance is ${this.balance + balance}`;
     }
 };
 // array function
-var arr = [2, 3, 4];
-var newArr = arr.map(function (elem) { return elem * elem; });
+const arr = [2, 3, 4];
+const newArr = arr.map((elem) => elem * elem);

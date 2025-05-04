@@ -1,7 +1,7 @@
 "use strict";
 // destructuring
 // object
-var details = {
+const details = {
     id: 34,
     user: {
         firstName: "showrov",
@@ -9,7 +9,7 @@ var details = {
     },
     contactNo: 12345
 };
-var contactNo = details.contactNo, middleName = details.user.middleName; // middleName: midname =>> name alias
+const { contactNo, user: { middleName } } = details; // middleName: midname =>> name alias
 // array
-var myfriends = ['h', 'b', 'j', 'w', 'k'];
-var bestfriend = myfriends[2], rest = myfriends.slice(3); // ,->h ,->b, bestfriend -> j, rest-> w,k
+const myfriends = ['h', 'b', 'j', 'w', 'k'];
+const [, , bestfriend, ...rest] = myfriends; // ,->h ,->b, bestfriend -> j, rest-> w,k

@@ -1,17 +1,17 @@
 "use strict";
 // data type
 //string
-var firstname = "showrov"; // explicit
-var roll = 12;
-var isAdmin = true;
-var x = undefined;
-var y = null;
+let firstname = "showrov"; // explicit
+let roll = 12;
+let isAdmin = true;
+let x = undefined;
+let y = null;
 // let d;  // anytype
 //  d = "anything"
-var d;
+let d;
 d = 23;
 // non- primitive
 // Array
-var friends = ["showrov", "yousuf"];
+let friends = ["showrov", "yousuf"];
 // tuple ->> kind of array ->> order 
-var ageName = [21, "showrov"];
+let ageName = [21, "showrov"];

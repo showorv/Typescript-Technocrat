@@ -1,13 +1,13 @@
 "use strict";
 //object
-var student1 = {
+const student1 = {
     firstName: "showrov",
     contactNo: 123455
 };
-var student2 = {
+const student2 = {
     firstName: "showrov",
     middleName: "hello"
 };
-var username = "hel";
-var isAdmins = true;
-var adde = function (num1, num2) { return num1 + num2; };
+const username = "hel";
+const isAdmins = true;
+const adde = (num1, num2) => num1 + num2;
